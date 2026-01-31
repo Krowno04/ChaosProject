@@ -13,8 +13,8 @@ TagManager:
   - UI
   - Player
   - Solid Objects
-  - 
-  - 
+  - Interactable
+  - Default(2)
   - 
   - 
   - 
@@ -47,7 +47,7 @@ TagManager:
   - name: Foreground
     uniqueID: 355560021
     locked: 0
-  - name: Player
+  - name: Player + Creatures
     uniqueID: 1070864007
     locked: 0
   m_RenderingLayers:

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,12 +13,19 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
 
     public LayerMask solidObjectsLayer;
+    public LayerMask interactablesLayer;
+
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Z))
+            Interact();
+    }
     private void FixedUpdate()
     {
         if (!isMoving)
@@ -42,6 +50,23 @@ public class PlayerController : MonoBehaviour
         }
 
         animator.SetBool("isMoving", isMoving);
+
+    }
+
+    private void Interact()
+    {
+        var facingDir = new Vector3(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+        var interactPos = transform.position + facingDir;
+
+        //Debug.DrawLine(transform.position, interactPos, Color.red, 1f);
+
+        var collider = Physics2D.OverlapCircle(interactPos, 0.2f, interactablesLayer);
+        if (collider != null)
+        {
+            //Debug.Log("There's an interactable here!");
+            //Gets and runs interact function of interacted thing
+            collider.GetComponent<Interactable>()?.Interact();
+        }
     }
 
     // Moves the player when called
@@ -61,7 +86,7 @@ public class PlayerController : MonoBehaviour
     }
     private bool IsWalkable(Vector3 targetPos)
     {
-        if(Physics2D.OverlapCircle(targetPos, 0.3f, solidObjectsLayer) != null)
+        if(Physics2D.OverlapCircle(targetPos, 0.3f, solidObjectsLayer | interactablesLayer) != null)
         {
             return false;
         }
