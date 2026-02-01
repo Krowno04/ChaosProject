@@ -50,5 +50,8 @@ TagManager:
   - name: Player + Creatures
     uniqueID: 1070864007
     locked: 0
+  - name: UI
+    uniqueID: 1732636817
+    locked: 0
   m_RenderingLayers:
   - Default

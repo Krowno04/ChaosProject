@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Unity\\ChaosProject\\ChaosProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{339EA6BA-7B4A-D38D-02F3-A20A75945B1C}|Assembly-CSharp.csproj|c:\\unity\\chaosproject\\chaosproject\\assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{339EA6BA-7B4A-D38D-02F3-A20A75945B1C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{339EA6BA-7B4A-D38D-02F3-A20A75945B1C}|Assembly-CSharp.csproj|c:\\unity\\chaosproject\\chaosproject\\assets\\scripts\\dialogmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{339EA6BA-7B4A-D38D-02F3-A20A75945B1C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{339EA6BA-7B4A-D38D-02F3-A20A75945B1C}|Assembly-CSharp.csproj|c:\\unity\\chaosproject\\chaosproject\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{339EA6BA-7B4A-D38D-02F3-A20A75945B1C}|Assembly-CSharp.csproj|c:\\unity\\chaosproject\\chaosproject\\assets\\scripts\\dialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{339EA6BA-7B4A-D38D-02F3-A20A75945B1C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{339EA6BA-7B4A-D38D-02F3-A20A75945B1C}|Assembly-CSharp.csproj|C:\\Unity\\ChaosProject\\ChaosProject\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{339EA6BA-7B4A-D38D-02F3-A20A75945B1C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{339EA6BA-7B4A-D38D-02F3-A20A75945B1C}|Assembly-CSharp.csproj|C:\\Unity\\ChaosProject\\ChaosProject\\assets\\scripts\\npccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{339EA6BA-7B4A-D38D-02F3-A20A75945B1C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{339EA6BA-7B4A-D38D-02F3-A20A75945B1C}|Assembly-CSharp.csproj|C:\\Unity\\ChaosProject\\ChaosProject\\assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{339EA6BA-7B4A-D38D-02F3-A20A75945B1C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{339EA6BA-7B4A-D38D-02F3-A20A75945B1C}|Assembly-CSharp.csproj|C:\\Unity\\ChaosProject\\ChaosProject\\assets\\scripts\\challengercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +46,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dialog.cs",
+              "DocumentMoniker": "C:\\Unity\\ChaosProject\\ChaosProject\\Assets\\Scripts\\Dialog.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog.cs",
+              "ToolTip": "C:\\Unity\\ChaosProject\\ChaosProject\\Assets\\Scripts\\Dialog.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T21:38:56.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DialogManager.cs",
+              "DocumentMoniker": "C:\\Unity\\ChaosProject\\ChaosProject\\Assets\\Scripts\\DialogManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogManager.cs",
+              "ToolTip": "C:\\Unity\\ChaosProject\\ChaosProject\\Assets\\Scripts\\DialogManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DialogManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T21:36:50.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GameController.cs",
               "DocumentMoniker": "C:\\Unity\\ChaosProject\\ChaosProject\\Assets\\Scripts\\GameController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameController.cs",
               "ToolTip": "C:\\Unity\\ChaosProject\\ChaosProject\\Assets\\Scripts\\GameController.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-31T21:12:01.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ChallengerController.cs",
               "DocumentMoniker": "C:\\Unity\\ChaosProject\\ChaosProject\\Assets\\Scripts\\ChallengerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ChallengerController.cs",
@@ -59,23 +93,25 @@
               "RelativeToolTip": "Assets\\Scripts\\ChallengerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T21:03:17.374Z"
+              "WhenOpened": "2026-01-31T21:03:17.374Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NPCController.cs",
               "DocumentMoniker": "C:\\Unity\\ChaosProject\\ChaosProject\\Assets\\Scripts\\NPCController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NPCController.cs",
               "ToolTip": "C:\\Unity\\ChaosProject\\ChaosProject\\Assets\\Scripts\\NPCController.cs",
               "RelativeToolTip": "Assets\\Scripts\\NPCController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T21:03:14.84Z"
+              "WhenOpened": "2026-01-31T21:03:14.84Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Interactable.cs",
               "DocumentMoniker": "C:\\Unity\\ChaosProject\\ChaosProject\\Assets\\Scripts\\Interactable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interactable.cs",
@@ -87,13 +123,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Unity\\ChaosProject\\ChaosProject\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Unity\\ChaosProject\\ChaosProject\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwEIAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-31T05:20:08.627Z",
               "EditorCaption": ""

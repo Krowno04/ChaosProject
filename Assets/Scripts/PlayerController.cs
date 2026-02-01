@@ -21,12 +21,7 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Z))
-            Interact();
-    }
-    private void FixedUpdate()
+    public void HandleUpdate()
     {
         if (!isMoving)
         {
@@ -51,6 +46,8 @@ public class PlayerController : MonoBehaviour
 
         animator.SetBool("isMoving", isMoving);
 
+        if (Input.GetKeyDown(KeyCode.Z))
+            Interact();
     }
 
     private void Interact()

@@ -1,16 +1,42 @@
 using UnityEngine;
 
+public enum GameState
+{
+    FreeRoam, 
+    Dialog, 
+    Battle
+}
 public class GameController : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField] PlayerController playerController;
 
-    // Update is called once per frame
-    void Update()
+    GameState state;
+
+    private void Start()
     {
-        
+        DialogManager.instance.OnShowDialog += () =>
+        {
+            state = GameState.Dialog;
+        };
+        DialogManager.instance.OnHideDialog += () =>
+        {
+            if (state == GameState.Dialog)
+                state = GameState.FreeRoam;
+        };
+    }
+    private void Update()
+    {
+        if (state == GameState.FreeRoam)
+        {
+            playerController.HandleUpdate();
+        } 
+        else if (state == GameState.Dialog)
+        {
+            DialogManager.instance.HandleUpdate();
+        } 
+        else if (state == GameState.Battle)
+        {
+
+        }
     }
 }
