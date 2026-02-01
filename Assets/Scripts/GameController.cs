@@ -14,6 +14,7 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
+
         DialogueManager.instance.OnShowDialog += () =>
         {
             state = GameState.Dialog;
