@@ -116,7 +116,7 @@ public class DialogueManager : MonoBehaviour
 
     public void HandleUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.Z) && !isTyping)
+        if (Input.GetKeyDown(KeyCode.F) && !isTyping)
         {
             Debug.Log("Input");
             isTyping = true;
