@@ -14,11 +14,11 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-        DialogManager.instance.OnShowDialog += () =>
+        DialogueManager.instance.OnShowDialog += () =>
         {
             state = GameState.Dialog;
         };
-        DialogManager.instance.OnHideDialog += () =>
+        DialogueManager.instance.OnHideDialog += () =>
         {
             if (state == GameState.Dialog)
                 state = GameState.FreeRoam;
@@ -32,7 +32,7 @@ public class GameController : MonoBehaviour
         } 
         else if (state == GameState.Dialog)
         {
-            DialogManager.instance.HandleUpdate();
+            DialogueManager.instance.HandleUpdate();
         } 
         else if (state == GameState.Battle)
         {
